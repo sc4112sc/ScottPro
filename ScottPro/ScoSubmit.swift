@@ -140,7 +140,7 @@ class ScoSubmit: UIViewController,UITextFieldDelegate {
         if usernameIsV==true&&passwordIsV==true&&ckeckPasswordIsV==true&&phoneIsV==true{
             
             
-            
+           //
             
             let fetchRequest:NSFetchRequest<UserData>=UserData.fetchRequest()
             let allusers=try! context.fetch(fetchRequest)
