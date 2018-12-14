@@ -369,6 +369,17 @@ class StatViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
+    
+    override func viewDidAppear(_ animated: Bool) {
+        UIView.animate(withDuration: 1.0) {
+            self.star1.frame.origin.x = 150
+            self.star2.frame.origin.x = 35
+            self.star3.frame.origin.x = 266
+            self.star4.frame.origin.x = 75
+            self.star5.frame.origin.x = 228
+        }
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

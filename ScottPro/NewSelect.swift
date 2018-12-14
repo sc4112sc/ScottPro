@@ -26,7 +26,7 @@ class NewSelect: UIViewController,UIPickerViewDelegate,UIPickerViewDataSource,UI
             pickerLabel?.font = UIFont(name: "<Your Font Name>", size: 20)
             pickerLabel?.textAlignment = .center
         }
-        pickerLabel?.text = dArray[row]
+        pickerLabel?.text = "🍹 "+dArray[row]
         pickerLabel?.textColor = UIColor.white
         pickerLabel?.backgroundColor = UIColor.orange
         return pickerLabel!

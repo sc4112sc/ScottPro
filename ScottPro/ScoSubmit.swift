@@ -170,6 +170,8 @@ class ScoSubmit: UIViewController,UITextFieldDelegate {
                 if email.text != ""
                 {
                     user.email = email.text!
+                }else{
+                    user.email = "未設定"
                 }
                 user.star=0
                 user.cheep01=0

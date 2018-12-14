@@ -24,6 +24,7 @@ class MyCheckViewController: UIViewController,UITableViewDelegate,UITableViewDat
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
         cell.textLabel?.text="商家:\(myData[indexPath.row].myShop)\t\t金額:\(myData[indexPath.row].myMoney)"
         cell.detailTextLabel?.text="訂單時間:\(myData[indexPath.row].myTime)"
+        cell.imageView?.image = UIImage(named: "tab1")
         
         return cell
     }

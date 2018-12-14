@@ -145,17 +145,17 @@ class AllCheepViewController: UIViewController,UITableViewDelegate,UITableViewDa
         }
         
         
-        for i in mytime1{
+        for _ in mytime1{
             if let indexNil=mytime1.index(of: ""){
                 mytime1.remove(at: indexNil)
             }
         }
-        for i in mytime2{
+        for _ in mytime2{
             if let indexNil=mytime2.index(of: ""){
                 mytime2.remove(at: indexNil)
             }
         }
-        for i in mytime3{
+        for _ in mytime3{
             if let indexNil=mytime3.index(of: ""){
                 mytime3.remove(at: indexNil)
             }

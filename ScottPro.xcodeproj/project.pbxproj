@@ -22,6 +22,7 @@
 		A10B25492159429600F7C15C /* CheckDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10B25482159429600F7C15C /* CheckDetailViewController.swift */; };
 		A1E420422190AA970023BE7C /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1E420412190AA970023BE7C /* Launch Screen.storyboard */; };
 		A1E420442190AC010023BE7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1E420432190ABFF0023BE7C /* Assets.xcassets */; };
+		A1E4D84C21BEB01900701A80 /* scottlogo1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A1E4D84B21BEB01900701A80 /* scottlogo1.jpg */; };
 		E96D948B20CCBE610063A093 /* BackgroundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96D948A20CCBE610063A093 /* BackgroundViewController.swift */; };
 		E96D948D20CCD5230063A093 /* SecendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96D948C20CCD5230063A093 /* SecendViewController.swift */; };
 		E970217620DF40E8004B209F /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = E970217520DF40E8004B209F /* Home.swift */; };
@@ -54,6 +55,7 @@
 		A10B25482159429600F7C15C /* CheckDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckDetailViewController.swift; sourceTree = "<group>"; };
 		A1E420412190AA970023BE7C /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		A1E420432190ABFF0023BE7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../.Trash/Assets.xcassets; sourceTree = "<group>"; };
+		A1E4D84B21BEB01900701A80 /* scottlogo1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = scottlogo1.jpg; path = drink/scottlogo1.jpg; sourceTree = SOURCE_ROOT; };
 		E96D948A20CCBE610063A093 /* BackgroundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundViewController.swift; sourceTree = "<group>"; };
 		E96D948C20CCD5230063A093 /* SecendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecendViewController.swift; sourceTree = "<group>"; };
 		E970217520DF40E8004B209F /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 				E991F44520C3B80000DB10A5 /* ViewController.swift */,
 				E991F44720C3B80000DB10A5 /* Main.storyboard */,
 				E970217720DF453D004B209F /* NewSelect.swift */,
+				A1E4D84B21BEB01900701A80 /* scottlogo1.jpg */,
 				E970217520DF40E8004B209F /* Home.swift */,
 				E96D948A20CCBE610063A093 /* BackgroundViewController.swift */,
 				E991F45820C3BEA100DB10A5 /* ScoSubmit.swift */,
@@ -209,6 +212,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1E4D84C21BEB01900701A80 /* scottlogo1.jpg in Resources */,
 				A1E420422190AA970023BE7C /* Launch Screen.storyboard in Resources */,
 				A1E420442190AC010023BE7C /* Assets.xcassets in Resources */,
 				E991F44920C3B80000DB10A5 /* Main.storyboard in Resources */,

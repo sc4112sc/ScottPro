@@ -29,6 +29,7 @@ class BackgroundViewController: UIViewController,UITableViewDelegate,UITableView
         cell.textLabel?.text="帳號:\(myData[indexPath.row].myName)\t密碼:\(myData[indexPath.row].myPassword)"
         cell.detailTextLabel?.text="E-mail:\(myData[indexPath.row].myEmail)\t行動電話:\(myData[indexPath.row].myMobile)"
         
+        cell.imageView?.image = UIImage(named: "tab3")
         return cell
         
     }

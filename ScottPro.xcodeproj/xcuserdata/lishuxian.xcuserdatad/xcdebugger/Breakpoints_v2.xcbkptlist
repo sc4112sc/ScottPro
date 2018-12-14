@@ -37,122 +37,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ScottPro/CheckViewController.swift"
-            timestampString = "561228657.698123"
+            timestampString = "566382029.42879"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "114"
-            endingLineNumber = "114"
+            startingLineNumber = "115"
+            endingLineNumber = "115"
             landmarkName = "calDone(_:)"
             landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ScottPro/AllCheepViewController.swift"
-            timestampString = "561501551.9386491"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "19"
-            endingLineNumber = "19"
-            landmarkName = "unknown"
-            landmarkType = "0">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "ScottPro.AllCheepViewController.__deallocating_deinit"
-                  moduleName = "ScottPro"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/lishuxian/Desktop/ScottPro/ScottPro/AllCheepViewController.swift"
-                  timestampString = "561400552.502314"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "0"
-                  endingLineNumber = "0"
-                  offsetFromSymbolStart = "4">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "ScottPro.AllCheepViewController.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; ScottPro.AllCheepViewController"
-                  moduleName = "ScottPro"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/lishuxian/Desktop/ScottPro/ScottPro/AllCheepViewController.swift"
-                  timestampString = "561400552.51182"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "0"
-                  endingLineNumber = "0"
-                  offsetFromSymbolStart = "12">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "ScottPro.AllCheepViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; ScottPro.AllCheepViewController"
-                  moduleName = "ScottPro"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/lishuxian/Desktop/ScottPro/ScottPro/AllCheepViewController.swift"
-                  timestampString = "561400552.515509"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "22"
-                  endingLineNumber = "22"
-                  offsetFromSymbolStart = "53">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "ScottPro.AllCheepViewController.__allocating_init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;ScottPro.AllCheepViewController&gt;"
-                  moduleName = "ScottPro"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/lishuxian/Desktop/ScottPro/ScottPro/AllCheepViewController.swift"
-                  timestampString = "561400552.519138"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "0"
-                  endingLineNumber = "0"
-                  offsetFromSymbolStart = "4">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "ScottPro.AllCheepViewController.init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;ScottPro.AllCheepViewController&gt;"
-                  moduleName = "ScottPro"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/lishuxian/Desktop/ScottPro/ScottPro/AllCheepViewController.swift"
-                  timestampString = "561400552.523862"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "22"
-                  endingLineNumber = "22"
-                  offsetFromSymbolStart = "28">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ScottPro/AllCheepViewController.swift"
-            timestampString = "561501551.938773"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "28"
-            endingLineNumber = "28"
-            landmarkName = "AllCheepViewController"
-            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

@@ -42,7 +42,8 @@ class CheckViewController: UIViewController,UITableViewDelegate,UITableViewDataS
         nowTime=formatter.string(from: Date())
         cell.textLabel?.text="我的飲料單-"+myShopName+"   共"+String(myAllMoney)+"元"
         cell.detailTextLabel?.text=nowTime
-        //cell.imageView?.image=UIImage(named: "x01")
+        
+        cell.imageView?.image=UIImage(named: "tab1")
         
         return cell
     }
