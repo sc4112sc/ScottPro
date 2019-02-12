@@ -1482,11 +1482,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <gestureRecognizers/>
                         <viewLayoutGuide key="safeArea" id="bSq-Pe-xQQ"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="0uQ-of-fu3" appends="YES" id="K73-3h-BiC"/>
+                        </connections>
                     </view>
                     <navigationItem key="navigationItem" title="地圖" id="pfT-Q2-LRE"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ujx-na-1ku" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.5" id="0uQ-of-fu3">
+                    <connections>
+                        <action selector="longPress:" destination="7Ye-0e-t8o" id="cJr-CI-Z8g"/>
+                    </connections>
+                </pongPressGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="-1436" y="-562"/>
         </scene>
@@ -1498,7 +1507,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <gestureRecognizers/>
                         <viewLayoutGuide key="safeArea" id="nZX-Ps-7IE"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="WZI-RB-h8t" appends="YES" id="nrS-IB-yKK"/>
+                        </connections>
                     </view>
                     <navigationItem key="navigationItem" title="我的位置" id="hF4-gr-4qs">
                         <barButtonItem key="backBarButtonItem" title=" " id="nZ3-im-tcu">
@@ -1507,6 +1520,11 @@
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7Ee-xV-QyT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.5" id="WZI-RB-h8t">
+                    <connections>
+                        <action selector="longPress:" destination="fD9-Nj-ePy" id="Lqr-ba-uh8"/>
+                    </connections>
+                </pongPressGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="-663" y="-1288"/>
         </scene>

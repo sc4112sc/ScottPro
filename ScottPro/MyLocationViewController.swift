@@ -94,4 +94,22 @@ class MyLocationViewController: UIViewController,CLLocationManagerDelegate,MKMap
     }
     */
 
+    @IBAction func longPress(_ sender: UILongPressGestureRecognizer) {
+        if sender.state == UIGestureRecognizerState.began{
+            let alertController = UIAlertController(title: "地圖模式", message: "請選擇地圖模式", preferredStyle: .alert)
+            let one = UIAlertAction(title: "一般地圖", style: .default) { (one) in
+                self.myMapView.mapType = .standard
+            }
+            let two = UIAlertAction(title: "衛星地圖", style: .default) { (two) in
+                self.myMapView.mapType = .satellite
+            }
+            let three = UIAlertAction(title: "混合地圖", style: .default) { (three) in
+                self.myMapView.mapType = .hybrid
+            }
+            alertController.addAction(one)
+            alertController.addAction(two)
+            alertController.addAction(three)
+            present(alertController, animated: true, completion: nil)
+        }
+    }
 }
