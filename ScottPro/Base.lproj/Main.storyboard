@@ -1517,6 +1517,11 @@
                         <barButtonItem key="backBarButtonItem" title=" " id="nZ3-im-tcu">
                             <color key="tintColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="🔎" id="jZG-1K-Eda">
+                            <connections>
+                                <action selector="calSearch:" destination="fD9-Nj-ePy" id="W9H-PD-aIt"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7Ee-xV-QyT" userLabel="First Responder" sceneMemberID="firstResponder"/>

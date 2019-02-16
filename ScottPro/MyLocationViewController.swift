@@ -19,10 +19,10 @@ class MyLocationViewController: UIViewController,CLLocationManagerDelegate,MKMap
         super.viewDidLoad()
         
         
-        myLocationManager=CLLocationManager()
+        myLocationManager = CLLocationManager()
         myLocationManager.delegate=self
         myLocationManager.distanceFilter = kCLLocationAccuracyNearestTenMeters
-        myLocationManager.desiredAccuracy=kCLLocationAccuracyBest
+        myLocationManager.desiredAccuracy = kCLLocationAccuracyBest
         
         let fullSize = UIScreen.main.bounds.size
         myMapView = MKMapView(frame: CGRect(x: 0, y: 20, width: fullSize.width, height: fullSize.height-20))
@@ -93,7 +93,123 @@ class MyLocationViewController: UIViewController,CLLocationManagerDelegate,MKMap
         // Pass the selected object to the new view controller.
     }
     */
+    var tOf1 = false
+    var tOf2 = false
+    var tOf3 = false
+    var tOf4 = false
+    
+    @IBAction func calSearch(_ sender: Any) {
+        
+        let request1 = MKLocalSearchRequest()
+        request1.naturalLanguageQuery = "50嵐"
+        request1.region = self.myMapView.region
+        let search1 = MKLocalSearch(request: request1)
+        
+        let request2 = MKLocalSearchRequest()
+        request2.naturalLanguageQuery = "迷客夏"
+        request2.region = self.myMapView.region
+        let search2 = MKLocalSearch(request: request2)
+        
+        let request3 = MKLocalSearchRequest()
+        request3.naturalLanguageQuery = "茶湯會"
+        request3.region = self.myMapView.region
+        let search3 = MKLocalSearch(request: request3)
 
+        let request4 = MKLocalSearchRequest()
+        request4.naturalLanguageQuery = "大苑子"
+        request4.region = self.myMapView.region
+        let search4 = MKLocalSearch(request: request4)
+
+        myMapView.removeAnnotations(myMapView.annotations)
+        
+        
+        
+        let alertController = UIAlertController(title: "商家選項", message: "請選擇商家", preferredStyle: .alert)
+        let one = UIAlertAction(title: "五十嵐", style: .default) { (one) in
+            
+
+            
+
+            search1.start { (response, error) in
+                guard error == nil else {
+                    return
+                }
+                guard response != nil else {
+                    return
+                }
+                for item in (response?.mapItems)! {
+                    
+                    self.myMapView.addAnnotation(item.placemark)
+                }
+            }
+        }
+        let two = UIAlertAction(title: "迷客夏", style: .default) { (two) in
+            
+            
+
+            search2.start { (response, error) in
+                guard error == nil else {
+                    return
+                }
+                guard response != nil else {
+                    return
+                }
+                for item in (response?.mapItems)! {
+                    
+                    self.myMapView.addAnnotation(item.placemark)
+                }
+            }
+        }
+        let three = UIAlertAction(title: "茶湯會", style: .default) { (three) in
+            
+
+            
+            search3.start { (response, error) in
+                guard error == nil else {
+                    return
+                }
+                guard response != nil else {
+                    return
+                }
+                for item in (response?.mapItems)! {
+                    
+                    self.myMapView.addAnnotation(item.placemark)
+                }
+            }
+
+            
+        }
+        let four = UIAlertAction(title: "大苑子", style: .default) { (four) in
+            
+            
+            search4.start { (response, error) in
+                guard error == nil else {
+                    return
+                }
+                guard response != nil else {
+                    return
+                }
+                for item in (response?.mapItems)! {
+                    
+                    self.myMapView.addAnnotation(item.placemark)
+                }
+            }
+
+        }
+        
+        let five = UIAlertAction(title: "取消", style: .destructive, handler: nil)
+        
+        alertController.addAction(one)
+        alertController.addAction(two)
+        alertController.addAction(three)
+        alertController.addAction(four)
+        alertController.addAction(five)
+        present(alertController, animated: true, completion: nil)
+        
+        
+
+    }
+    
     @IBAction func longPress(_ sender: UILongPressGestureRecognizer) {
         if sender.state == UIGestureRecognizerState.began{
             let alertController = UIAlertController(title: "地圖模式", message: "請選擇地圖模式", preferredStyle: .alert)
